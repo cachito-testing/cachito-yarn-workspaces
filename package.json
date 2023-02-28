@@ -1,6 +1,7 @@
 {
   "name": "npm_test",
   "version": "1.1.0",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +24,12 @@
     "spam-packages/spam",
     "eggs-packages/*"
   ],
+  "dependencies": {
+    "foo": "file:foo",
+    "bar": "file:bar",
+    "not-baz": "file:baz",
+    "spam": "file:spam-packages/spam",
+    "eggs": "file:eggs-packages/eggs"
+  },
   "description": ""
 }
