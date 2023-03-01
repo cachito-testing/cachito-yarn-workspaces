@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cachito-testing/cachito-npm-workspaces#readme",
   "dependencies": {
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "not-baz": "^1.0.0"
   }
 }

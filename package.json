@@ -25,11 +25,8 @@
     "eggs-packages/*"
   ],
   "dependencies": {
-    "foo": "file:foo",
-    "bar": "file:bar",
-    "not-baz": "file:baz",
-    "spam": "file:spam-packages/spam",
-    "eggs": "file:eggs-packages/eggs"
+    "foo": "^1.0.0",
+    "bar": "file:bar"
   },
   "description": ""
 }
